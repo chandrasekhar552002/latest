@@ -34,7 +34,7 @@ pipeline {
         }
         stage('clone'){
             steps{
-                git branch: 'dev', url: 'https://github.com/chandrasekhar552002/surya.git'
+                git branch: 'dev', url: 'https://github.com/chandrasekhar552002/latest.git'
             }
         }
         stage('Build Image'){
